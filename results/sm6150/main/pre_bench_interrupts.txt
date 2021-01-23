@@ -1,21 +1,21 @@
            CPU0       CPU1       CPU2       CPU3       CPU4       CPU5       CPU6       CPU7       
-  4:        497          1          1          1          1          1          7          1   PDC-GIC  19 Level     arch_timer
+  4:        492          1          1          1          1          1          7          1   PDC-GIC  19 Level     arch_timer
   6:          0          0          0          0          0          0          0          0   PDC-GIC  38 Level     arch_mem_timer
   8:          0          0          0          0          0          0          0          0   PDC-GIC  21 Level     arm-pmu
   9:          0          0          0          0          0          0          0          0   PDC-GIC  82 Level     arm_dsu_0
  26:          0          0          0          0          0          0          0          0   PDC-GIC  32 Edge      apps_wdog_bark
  28:          0          0          0          0          0          0          0          0   PDC-GIC  22 Level     KRYO L1-L2 ECC FAULTIRQ
  29:          0          0          0          0          0          0          0          0   PDC-GIC  67 Level     KRYO L3-SCU ECC FAULTIRQ
- 30:        193          0          0          0          0          0          0          0   PDC-GIC  37 Level     apps_rsc
+ 30:        191          0          0          0          0          0          0          0   PDC-GIC  37 Level     apps_rsc
  31:          0          0          0          0          0          0          0          0   PDC-GIC 161 Level     display_rsc
- 32:         65          0          0          0          0          0          0          0   PDC-GIC 673 Edge      mmc0
+ 32:         66          0          0          0          0          0          0          0   PDC-GIC 673 Edge      mmc0
  33:          1          0          0          0          0          0          0          0   PDC-GIC 676 Edge      7c4000.sdhci
- 34:         13          0          0          0          0          0          0          0   PDC-GIC 236 Edge      mmc1
+ 34:         74          0          0          0          0          0          0          0   PDC-GIC 236 Edge      mmc1
  35:          2          0          0          0          0          0          0          0   PDC-GIC 254 Edge      8804000.sdhci
  37:          0          0          0          0          0          0          0          0   PDC-GIC 304 Level     sps
  39:          0          0          0          0          0          0          0          0  pmic_arb 8388749 Edge      pon_kpdpwr_status
  40:          0          0          0          0          0          0          0          0  pmic_arb 8454285 Edge      pon_resin_status
- 41:         23          0          0          0          0          0          0          0  pmic_arb 51380379 Edge      pm-adc5
+ 41:         24          0          0          0          0          0          0          0  pmic_arb 51380379 Edge      pm-adc5
  42:          0          0          0          0          0          0          0          0  pmic_arb 55574684 Edge      thr-int-en
  43:          0          0          0          0          0          0          0          0  pmic_arb 24117397 Edge      sig-tx
  44:          0          0          0          0          0          0          0          0  pmic_arb 24182933 Edge      sig-rx
@@ -60,7 +60,7 @@
 222:          1          0          0          0          0          0          0          0  msmgpio-dc 117 Level     tas2563
 242:        100          0          0          0          0          0          0          0   PDC-GIC 634 Level     i2c_geni
 243:         72          0          0          0          0          0          0          0   PDC-GIC 636 Level     i2c_geni
-244:          9          0          0          0          0          0          0          0   PDC-GIC 385 Level     i2c_geni
+244:         10          0          0          0          0          0          0          0   PDC-GIC 385 Level     i2c_geni
 245:          0          0          0          0          0          0          0          0   PDC-GIC 386 Level     i2c_geni
 246:          0          0          0          0          0          0          0          0   PDC-GIC 387 Level     spi_geni
 247:          0          0          0          0          0          0          0          0   PDC-GIC 388 Level     msm_serial_geni0
@@ -185,11 +185,11 @@
 444:          0          0          0          0          0          0          0          0  pmic_arb 185663650 Edge      sdam-sts
 445:          0          0          0          0          0          0          0          0       sde  12 Edge      dp_display_isr
 446:          0          0          0          0          0          0          0          0       sde   4 Edge      dsi_ctrl
-IPI0:        95         43         42         42         42         43         41         38       Rescheduling interrupts
+IPI0:        90         40         40         40         41         40         41         36       Rescheduling interrupts
 IPI1:         0       7913       7913       7913       7913       7913       7913       7913       Function call interrupts
 IPI2:         0          0          0          0          0          0          0          0       CPU stop interrupts
 IPI3:         0          0          0          0          0          0          0          0       CPU stop (for crash dump) interrupts
 IPI4:         0          0          0          0          0          0          0          0       Timer broadcast interrupts
-IPI5:       146          5          5          7          5          6          7          5       IRQ work interrupts
+IPI5:       142          4          4          4          4          5          9          4       IRQ work interrupts
 IPI6:         0          0          0          0          0          0          0          0       CPU wake-up interrupts
 Err:          0
